@@ -45,8 +45,9 @@ sudo reboot
 
 ```
 ---------------------------------
-Script Focus: xdotool will send keystrokes to the active window. Ensure the terminal where the executable runs remains focused.
-
+Script Focus:                     
+---------------------------------
+xdotool will send keystrokes to the active window. Ensure the terminal where the executable runs remains focused.
 Alternative for Direct Input: If the executable accepts input from standard input (stdin), you can replace the xdotool commands with an echo command:
 
 ```bash
