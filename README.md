@@ -1,3 +1,6 @@
+---------------------------------
+OPTION 1
+---------------------------------
 Set the Script to Run on Boot
 - First download the next tool, so the script can type automatically on terminal
 ```bash
@@ -25,7 +28,7 @@ sudo nano /etc/rc.local
 - Save and close the file
 ---------------------------------
 OPTION 2 
-
+---------------------------------
 - Open the crontab editor:
 ```
 sudo crontab -e
@@ -34,7 +37,7 @@ sudo crontab -e
 ```
 @reboot /home/pi/git/startup_script.sh
 ```
-- Save and close the editor.
+Save and close the editor.
   ---------------------------------
 - Test the Setup: Reboot your Raspberry Pi to test the setup:
 ```
