@@ -44,10 +44,17 @@ Save and close the editor.
 sudo reboot
 
 ```
+---------------------------------
+Script Focus: xdotool will send keystrokes to the active window. Ensure the terminal where the executable runs remains focused.
 
+Alternative for Direct Input: If the executable accepts input from standard input (stdin), you can replace the xdotool commands with an echo command:
 
+```bash
+echo -e "c\n1\n1" | ./your_executable
+```
+This sends the c, 1, and 1 keystrokes as input to the program directly.
 
-
+---------------------------------
 
 
 
